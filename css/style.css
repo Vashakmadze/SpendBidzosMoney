@@ -1,0 +1,201 @@
+body {
+    background-color: #f1f2f6;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+.header {
+    background-color: white;
+}
+.text {   
+    padding: 10px; 
+    font-size: 40px;
+    font-family: 'Odibee Sans', cursive;
+    font-weight: bold;
+}
+.textdiv {
+    display: flex;
+    justify-content: space-around;
+}
+.bidzina {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+}
+.bidzo {
+    margin: 10px 0px;
+    background-color: white;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bio {
+    margin-top: 20px;
+}
+.biotext{
+    font-size: 32px;
+    font-weight: bold;
+}
+.money{
+    background-color: rgb(46, 204, 113);
+    padding: 20px 30px;
+}
+.moneytext {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+.container.left {
+    max-width: 80%;
+    margin: auto;
+}
+.menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.item {
+    max-width: 100%;
+    background-color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px 15px;
+}
+.item-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 110px;
+    object-fit: contain;
+    padding: 15px 10px 10px;
+}
+.grid {
+    margin-top: 10px;
+}
+.name {
+    font-size: 22px;
+    font-weight: bold;
+}
+.price {
+    font-size: 20px;
+    color: rgb(46, 204, 113);
+    font-weight: bold;
+    margin-top: 10px;
+}
+.shop {
+    font-size: 20px;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 25px;
+    gap: 10px;
+}
+.sell {
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    background-color: rgb(245, 59, 87);
+    color: white;
+    font-weight: bold;
+    user-select: none;
+    touch-action: manipulation;
+    padding: 9px 12px;
+    border-radius: 3px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+}
+.number {
+    font-size: 16px;
+    color: rgb(51, 51, 51);
+    font-family: Roboto, sans-serif;
+    -webkit-appearance: none;
+    padding: 9px 12px;
+    border-radius: 3px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(178, 190, 195);
+    border-image: initial;
+}
+.buy {
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    background-color: rgb(5, 196, 107);
+    color: white;
+    font-weight: bold;
+    user-select: none;
+    touch-action: manipulation;
+    padding: 9px 12px;
+    border-radius: 3px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+}
+.container.left {
+    position: sticky;
+    top: 0;
+}
+.footer {
+    margin-top: 20px;
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Odibee Sans', cursive;
+}
+.footer h2 {
+    font-size: 20px;
+}
+.footertext {
+    margin: 10px;
+}
+a:hover {
+    color: rgb(5, 196, 107);;
+}
+a {
+    color: black;
+    transition: 0.5s;
+}
+.bought {
+    text-align: center;
+    background-color: white;
+}
+.last {
+    margin: 10px 0;
+}
+@media only screen and (max-width: 1020px) {
+    .menu {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+  }
+.btext {
+    font-size: 28px;
+    color: rgb(46, 204, 113);
+    font-weight: bold;
+    padding: 15px;
+}
+.bitems {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px 0px;
+}
+.cartitems {
+    text-align: center;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}

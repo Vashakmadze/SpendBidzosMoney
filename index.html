@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>დახარჯე ბიძინას ფული</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" async></script>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    </head>
+<body> 
+    <header>
+        <div class="header">
+            <div class="container textdiv">
+                <h1 class="text"> Spend Bidzos Money  </h1>
+                <h1 class="text second">დახარჯე ბიძოს ფული</h1>
+            </div>
+        </div>
+    </header>
+    <section class="container">
+        <div class=" bidzo">
+            <div class="image">
+                <img class="bidzina" src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Bidzina_Ivanishvili_2013-07-19.jpg" alt="">
+            </div>
+            <div class="bio">
+                <h1 class="biotext"> ბიძინა ივანიშვილი</h1>
+            </div>
+        </div>
+    </section>
+    <section class="container left">
+        <div class="money">
+            <h1 class="moneytext">დარჩენილია 4,800,000,000$</h1>
+        </div>
+    </section>
+    <section class="container grid">
+        <div class="menu">
+            <div class="item" id="1">
+                <img class="item-image" src="images/burger.png" alt="No Image">
+                <div class="name">ბურგერი</div>
+                <div class="price">2$</div>
+                <div class="shop">
+                    <button class="sell" onclick="add(-1)">გაყიდვა</button>
+                    <input class="number" type="number" value="0">
+                    <button class="buy" onclick="add(+1)">ყიდვა</button>
+                </div>
+            </div>
+            <div class="item coffe" id="2">
+                <img class="item-image" src="images/coffee.png" alt="No Image">
+                <div class="name">ყავა</div>
+                <div class="price">4$</div>
+                <div class="shop">
+                    <button class="sell" onclick="add(-1)">გაყიდვა</button>
+                    <input class="numberm" type="number" value="0">
+                    <button class="buy" onclick="add(+1)">ყიდვა</button>
+                </div>
+            </div>
+            <div class="item book" id="3">
+                <img class="item-image" src="images/book.png" alt="No Image">
+                <div class="name">წიგნი</div>
+                <div class="price">15$</div>
+                <div class="shop">
+                    <button class="sell" onclick="add(+1)">გაყიდვა</button>
+                    <input class="number" type="number" value="0">
+                    <button class="buy" >ყიდვა</button>
+                </div>
+            </div>
+            <div class="item game" id="4">
+                <img class="item-image" src="images/game.png" alt="No Image">
+                <div class="name">ვიდეო თამაში</div>
+                <div class="price">60$</div>
+                <div class="shop">
+                    <button class="sell" onclick="add(-1)">გაყიდვა</button>
+                    <input class="number" type="number" value="0">
+                    <button class="buy" onclick="add(+1)">ყიდვა</button>
+                </div>
+            </div>
+            <div class="item charity" id="5">
+                <img class="item-image" src="images/redcross.png" alt="No Image">
+                <div class="name">ქველმოქმედება</div>
+                <div class="price">100$</div>
+                <div class="shop">
+                    <button class="sell" onclick="add(-1)">გაყიდვა</button>
+                    <input class="number" type="number" value="0">
+                    <button class="buy" onclick="add(+1)">ყიდვა</button>
+                </div>
+            </div>
+            <div class="item headphones" id="6">
+                <img class="item-image" src="images/headphones.png" alt="No Image">
+                <div class="name">ყურსასმენები</div>
+                <div class="price">200$</div>
+                <div class="shop">
+                    <button class="sell" onclick="add(-1)">გაყიდვა</button>
+                    <input class="number" type="number" value="0">
+                    <button class="buy" onclick="add(+1)">ყიდვა</button>
+                </div>
+            </div>
+            <div class="item jordans" id="7">
+                <img class="item-image" src="images/jordans.png" alt="No Image">
+                <div class="name">ჯორდანები</div>
+                <div class="price">200$</div>
+                <div class="shop">
+                    <button class="sell" onclick="add(-1)">გაყიდვა</button>
+                    <input class="number" type="number" value="0">
+                    <button class="buy" onclick="add(+1)">ყიდვა</button>
+                </div>
+            </div>
+            <div class="item board" id="8">
+                <img class="item-image" src="images/board.png" alt="No Image">
+                <div class="name">სკეიტბორდი</div>
+                <div class="price">300$</div>
+                <div class="shop">
+                    <button class="sell" onclick="add(-1)">გაყიდვა</button>
+                    <input class="number" type="number" value="0">
+                    <button class="buy" onclick="add(+1)">ყიდვა</button>
+                </div>
+            </div>
+            <div class="item drone" id="9">
+                <img class="item-image" src="images/drone.png" alt="No Image">
+                <div class="name">დრონი</div>
+                <div class="price">800$</div>
+                <div class="shop">
+                    <button class="sell" onclick="add(-1)">გაყიდვა</button>
+                    <input class="number" type="number" value="0">
+                    <button class="buy" onclick="add(+1)">ყიდვა</button>
+                </div>
+            </div>
+            <div class="item bag" id="10">
+                <img class="item-image" src="images/bag.png" alt="No Image">
+                <div class="name">მოდური ჩანთა</div>
+                <div class="price">1000$</div>
+                <div class="shop">
+                    <button class="sell" onclick="add(-1)">გაყიდვა</button>
+                    <input class="number" type="number" value="0">
+                    <button class="buy" onclick="add(+1)">ყიდვა</button>
+                </div>
+            </div>
+            <div class="item tv" id="11">
+                <img class="item-image" src="images/tv.png" alt="No Image">
+                <div class="name">4K ტელევიზორი</div>
+                <div class="price">10000$</div>
+                <div class="shop">
+                    <button class="sell" onclick="add(-1)">გაყიდვა</button>
+                    <input class="number" type="number" value="0">
+                    <button class="buy" onclick="add(+1)">ყიდვა</button>
+                </div>
+            </div>
+            <div class="item ring" id="12">
+                <img class="item-image" src="images/ring.png" alt="No Image">
+                <div class="name">ალმასის ბეჭედი</div>
+                <div class="price">10000$</div>
+                <div class="shop">
+                    <button class="sell" onclick="add(-1)">გაყიდვა</button>
+                    <input class="number" type="number" value="0">
+                    <button class="buy" onclick="add(+1)">ყიდვა</button>
+                </div>
+            </div>
+            <div class="item watch" id="13">
+                <img class="item-image" src="images/watch.png" alt="No Image">
+                <div class="name">როლექსი</div>
+                <div class="price">15000$</div>
+                <div class="shop">
+                    <button class="sell" onclick="add(-1)">გაყიდვა</button>
+                    <input class="number" type="number" value="0">
+                    <button class="buy" onclick="add(+1)">ყიდვა</button>
+                </div>
+            </div>
+            <div class="item boat" id="14">
+                <img class="item-image" src="images/boat.png" alt="No Image">
+                <div class="name">კატერი</div>
+                <div class="price">30000$</div>
+                <div class="shop">
+                    <button class="sell" onclick="add(-1)">გაყიდვა</button>
+                    <input class="number" type="number" value="0">
+                    <button class="buy" onclick="add(+1)">ყიდვა</button>
+                </div>
+            </div>
+            <div class="item tesla" id="15">
+                <img class="item-image" src="images/tesla.png" alt="No Image">
+                <div class="name">ტესლა</div>
+                <div class="price">70000$</div>
+                <div class="shop">
+                    <button class="sell" onclick="add(-1)">გაყიდვა</button>
+                    <input class="number" type="number" value="0">
+                    <button class="buy" onclick="add(+1)">ყიდვა</button>
+                </div>
+            </div>
+            <div class="item copter" id="16">
+                <img class="item-image" src="images/copter.png" alt="No Image">
+                <div class="name">შვეულმფრენი</div>
+                <div class="price">150000$</div>
+                <div class="shop">
+                    <button class="sell" onclick="add(-1)">გაყიდვა</button>
+                    <input class="number" type="number" value="0">
+                    <button class="buy" onclick="add(+1)">ყიდვა</button>
+                </div>
+            </div>
+            <div class="item ferrari" id="17">
+                <img class="item-image" src="images/ferrari.png" alt="No Image">
+                <div class="name">ფერარი</div>
+                <div class="price">200000$</div>
+                <div class="shop">
+                    <button class="sell" onclick="add(-1)">გაყიდვა</button>
+                    <input class="number" type="number" value="0">
+                    <button class="buy" onclick="add(+1)">ყიდვა</button>
+                </div>
+            </div>
+            <div class="item lambo" id="18">
+                <img class="item-image" src="images/lambo.png" alt="No Image">
+                <div class="name">ლამბორგინი</div>
+                <div class="price">200000$</div>
+                <div class="shop">
+                    <button class="sell" onclick="add(-1)">გაყიდვა</button>
+                    <input class="number" type="number" value="0">
+                    <button class="buy" onclick="add(+1)">ყიდვა</button>
+                </div>
+            </div>
+            <div class="item bar" id="19">
+                <img class="item-image" src="images/bar.png" alt="No Image">
+                <div class="name">ბარი</div>
+                <div class="price">300000$</div>
+                <div class="shop">
+                    <button class="sell" onclick="add(-1)">გაყიდვა</button>
+                    <input class="number" type="number" value="0">
+                    <button class="buy" onclick="add(+1)">ყიდვა</button>
+                </div>
+            </div>
+            <div class="item pizza" id="20">
+                <img class="item-image" src="images/pizza.png" alt="No Image">
+                <div class="name">პიცის რესტორანი</div>
+                <div class="price">500000$</div>
+                <div class="shop">
+                    <button class="sell" onclick="add(-1)">გაყიდვა</button>
+                    <input class="number" type="number" value="0">
+                    <button class="buy" onclick="add(+1)">ყიდვა</button>
+                </div>
+            </div>
+            <div class="item house" id='21'>  
+                <img class="item-image" src="images/house.png" alt="No Image">
+                <div class="name">სახლი სანაპიროზე</div>
+                <div class="price">5000000$</div>
+                <div class="shop">
+                    <button class="sell" onclick="add(-1)">გაყიდვა</button>
+                    <input class="number" type="number" value="0">
+                    <button class="buy" onclick="add(+1)">ყიდვა</button>
+                </div>
+            </div>
+            <div class="item f15" id="22">
+                <img class="item-image" src="images/f15.png" alt="No Image">
+                <div class="name">გამანადგურებელი</div>
+                <div class="price">15000000$</div>
+                <div class="shop">
+                    <button class="sell" onclick="add(-1)">გაყიდვა</button>
+                    <input class="number" type="number" value="0">
+                    <button class="buy" onclick="add(+1)">ყიდვა</button>
+                </div>
+            </div>
+            <div class="item yacht" id="23">
+                <img class="item-image" src="images/yacht.png" alt="No Image">
+                <div class="name">იახტა</div>
+                <div class="price">16000000$</div>
+                <div class="shop">
+                    <button class="sell" onclick="add(-1)">გაყიდვა</button>
+                    <input class="number" type="number" value="0">
+                    <button class="buy" onclick="add(+1)">ყიდვა</button>
+                </div>
+            </div>
+            <div class="item flag" id="24">
+                <img class="item-image" src="images/flag.webp" alt="No Image">
+                <div class="name">სახელმწიფო</div>
+                <div class="price">1$</div>
+                <div class="shop">
+                    <button class="sell" onclick="add(-1)">გაყიდვა</button>
+                    <input class="number" type="number" value="0">
+                    <button class="buy" onclick="add(+1)">ყიდვა</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="last">
+        <div class="bought container">
+            <h1 class="btext">თქვენი შენაძენი</h1>
+        </div>
+        <div class="bitems container">
+            <div class="cartitems" ></div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer container">
+            <h1 class="inspire footertext">Inspired By Neal.fun</h1>
+            <h2 class="warning footertext">პოლიტიკური გაფრთხილება აქ!</h1>
+            <h2 class="copy footertext"> ყველა უფლება დაცულია</h1>
+            <div class="icons">
+                <a href="https://www.facebook.com/luka.vashakmadze.1/"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/lukavasha/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="https://github.com/Vashakmadze"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+                <a href="https://www.youtube.com/channel/UCCp4855iDkk_GdqZ7yP_ORQ?view_as=subscriber"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
